@@ -1,6 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
     <!-- custom style -->
     <link rel="stylesheet" href="css/style.css" >
@@ -11,94 +14,133 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <!-- Font Awsome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Awards</title>
 </head>
 <body>
 <!-- start header -->
 
- <header>
+ <header >
     <h3>Trade With the</h3>
-    <h1>Most Award Winning Broker in 2021</h1>
+    <h1 data-aos="fade-in">Most Award Winning Broker in 2021</h1>
     <p>Globally recognized for our influence in shaping the future of trading.
         Showcasing the performance that differentiates our company from our competitors.
         Take a closer look at our list of awards.
     </p>
-    <button>Scroll to view more</button>
-    <i class="fas fa-chevron-down"></i>
+    <button id="scrollToTopBtn">Scroll to view more</button>
+<!--     <a href="#sec-2">-->
+<!--&lt;!&ndash;         <div class="scroll-down">&ndash;&gt;-->
+<!--             <i class="fas fa-chevron-down"></i>-->
+<!--&lt;!&ndash;         </div>&ndash;&gt;-->
+<!--     </a>-->
+     <section id="sec-1">
+             <a href="#sec-2">
+                 <div class="scroll-down"></div>
+             </a>
+     </section>
  </header>
 <!-- end header  -->
 
 <!-- start achievements section -->
+<section id="sec-2">
     <div class="title">
         <img src="img/Vector%20Smart%20Object.png" >
         <h3><span> Our Latest </span> Achievements</h3>
     </div>
 <!-- start Timeline --->
         <div class="timeline">
-            <div class="container right">
+            <div class="container right" >
                 <div class="date">2021</div>
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                     data-aos-delay="600">
                     <h2>Best Trading Condition </h2>
                     <p> Forex Expo </p>
                 </div>
             </div>
             <div class="container left">
                 <div class="date">2021</div>
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                     data-aos-delay="600">
                     <h2>Fastest Withdrawals & Deposits</h2>
                     <p> Cairo Expo </p>
                 </div>
             </div>
             <div class="container right">
                 <div class="date">2021</div>
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                     data-aos-delay="600">
                     <h2>Best Forex Trading Support - Global </h2>
                     <p> Global Forex Award </p>
                 </div>
             </div>
             <div class="container left">
                 <div class="date">2021</div>
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                     data-aos-delay="600">
                     <h2>Best Forex Trading Support - Middle East  </h2>
                     <p> Global Forex Award </p>
                 </div>
             </div>
             <div class="container right">
                 <div class="date">2021</div>
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                     data-aos-delay="600">
                     <h2>Best Execution Broker </h2>
                     <p> Smart Vision Expo (MENA) </p>
                 </div>
             </div>
             <div class="container left">
                 <div class="date">2021</div>
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                     data-aos-delay="600">
                     <h2>Best Forex Broker </h2>
                     <p>Smart Vision Expo (MENA)</p>
                 </div>
             </div>
             <div class="container right">
                 <div class="date">2021</div>
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                     data-aos-delay="600">
                     <h2> Best Forex Execution  </h2>
                     <p> JFEX Award</p>
                 </div>
             </div>
             <div class="container left">
                 <div class="date">2021</div>
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                     data-aos-delay="600">
                     <h2> Best MT5 Broker </h2>
                     <p> JFEX Award</p>
                 </div>
             </div>
             <div class="container right">
                 <div class="date">2021</div>
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1000"
+                     data-aos-delay="600">
                     <h2> Fastest Growing Broker  </h2>
                     <p> Forex Expo</p>
                 </div>
             </div>
         </div>
+</section>
 
 <!-- end timeline --->
 <!-- start achievements section -->
@@ -109,7 +151,8 @@
             <h2>Why <span>Trade with Accuindex </span></h2>
         </div>
         <div class="trade">
-            <div class="trade-section">
+            <div class="trade-section" data-aos="fade-up"
+                 data-aos-duration="3000">
             <div class="col">
                 <img src="img/Vector%20Smart%20Object1.png">
                 <h6>Dedicated Account Manager</h6>
@@ -136,5 +179,11 @@
 
  <!-- end trade section -->
 
+<!--<script>-->
+<!--    AOS.init();-->
+<!--</script>-->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
